@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
     // res.write("hi")
     res.write("<html>")
     res.write("<head><title>Aircampus</title></head>")
-    res.write("<body><h1> Hi Rajesh Saini</h1><input /></body>")
+    res.write("<body><h1>Hello Rajesh Saini</h1><input /></body>")
     res.write(`<body><form action="masseg" method="POST" <input type ="text" name="Rajesh" <button type="submit">send</button>> ></form></body>`)
     res.write("</html>")
     res.end()
