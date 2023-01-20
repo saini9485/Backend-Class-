@@ -1,13 +1,13 @@
 // console.log("hello word ")
 const http = require("http")  //require is new in build function 
 const server = http.createServer((req, res) => {
-    console.log(req.url)
+    // console.log(req.url)
     res.setHeader("Content-Type", "text/html")
     let url = req.url
     if (url === "/") {
         res.write("home")
     } else if (url === "/about") {
-        console.log("we are awesome")
+        res.write("we are awesome")
     } else {
         res.write("page not found")
     }
@@ -22,6 +22,7 @@ const server = http.createServer((req, res) => {
     res.write(`<button type="submit">send</button>`)
     res.write("</html>")
     res.end()
+   
 })
 
 server.listen(3000)
