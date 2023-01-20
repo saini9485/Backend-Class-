@@ -18,8 +18,10 @@ const server = http.createServer((req, res) => {
     res.write("<html>")
     res.write("<head><title>Aircampus</title></head>")
     res.write("<body><h1>Hello Rajesh Saini R.N</h1><input /></body>")
-    res.write(`<body><form action="masseg" method="POST" <input type ="text" name="Rajesh" <button type="submit">send</button>> ></form></body>`)
+    res.write(`<body><form action="masseg" method="POST" <input type ="text" name="Rajesh" ></form></body>`)
+    res.write(`<button type="submit">send</button>`)
     res.write("</html>")
     res.end()
 })
+
 server.listen(3000)
