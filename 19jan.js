@@ -13,8 +13,8 @@ const server = http.createServer((req,res)=>{
         res.write(
             `<body>
                 <form action="/message" method="POST">
-                    <input type="text" name="Tony">
-                    <button type="submit">Send</button>
+                    <input type="text" name="Rajesh Saini">
+                    <button type="submit">Send Massage</button>
                 </form>
             </body>
             `
