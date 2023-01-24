@@ -3,7 +3,7 @@ const express = require('express')
 const router = express.Router()
 
 router.use('/products',(req,res)=>{
-    res.send('some products page')
+    res.send('this is some products page')
 })
 
 router.use('/add-product',(req,res)=>{
