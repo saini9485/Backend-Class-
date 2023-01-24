@@ -13,6 +13,6 @@ res.send( "<form action='/product' method='POST'> <input type='text' name='title
 router.use('/product',(req,res)=>{
     res.send("home")
    // console.log(req.body)
-    // res.redirect('/')
+     res.redirect('/')
 })
 module.exports = router;
