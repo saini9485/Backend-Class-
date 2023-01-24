@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const productRoutes = require('../authProject/product');
+const productRoutes = require('../23jan-authProject/product');
 const authRoutes = require('./auth')
 const app = express();
 
