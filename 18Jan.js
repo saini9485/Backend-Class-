@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
     // res.setHeader("Content-Type", "text/html")
     // res.write("hi")
     res.write("<html>")
-    res.write("<head><title>Aircampus Rajesh saini</title></head>")
+    res.write("<head><title>Aircampus Rajesh </title></head>")
     res.write("<body><h1>Hello Rajesh Saini R.S&N.S </h1><input /></body>")
     res.write(`<body><form action="massage" method="POST" <input type ="submit" name="Rajesh" ></form></body>`)
     res.write(`<button type="submit">send</button>`)
